@@ -1,0 +1,94 @@
+{
+    "name": "InputMaster",
+    "maps": [
+        {
+            "name": "Pointer",
+            "id": "134d31d6-0291-4f7e-ad90-e8e844b87c1f",
+            "actions": [
+                {
+                    "name": "DragPos",
+                    "type": "Value",
+                    "id": "a8c3778b-57d0-4eb4-838f-6fb2fa70d39a",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "DragDelta",
+                    "type": "Value",
+                    "id": "28c0c62f-c59d-4d04-8349-28aac543129b",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "EndDrag",
+                    "type": "Button",
+                    "id": "6c0627ba-d349-4133-8da0-82cbce696c1e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "DragStartPos",
+                    "type": "Value",
+                    "id": "90090dd0-b467-44f1-9f69-4d2d5b3694cc",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "65d6b61b-fdcc-463c-b708-674f5d7d53e0",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DragPos",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e054d6e3-6d96-473a-b857-0a3d944f5aa6",
+                    "path": "<Touchscreen>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DragDelta",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1c55d916-3ffb-4891-b5f5-b5c952b501ed",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "EndDrag",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "346d1540-b6bf-44ff-8ccf-c2b1b8ea61e9",
+                    "path": "<Touchscreen>/primaryTouch/startPosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DragStartPos",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
